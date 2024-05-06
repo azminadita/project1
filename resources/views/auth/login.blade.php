@@ -7,8 +7,6 @@
 
         <!-- Google Font: Source Sans Pro -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="../../plugins/fontawesome-free/css/all.min.css">
         <!-- icheck bootstrap -->
         <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
         <!-- Theme style -->
@@ -64,20 +62,11 @@
             </div>
         </form>
 
-        <div class="social-auth-links text-center mb-3">
-            <p>- OR -</p>
-            <a href="#" class="btn btn-block btn-primary">
-            <i class="fab fa-facebook mr-2"></i> Sign in using Facebook
-            </a>
-            <a href="#" class="btn btn-block btn-danger">
-            <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
-            </a>
-        </div>
         <!-- /.social-auth-links -->
 
-        <p class="mb-1">
+        {{-- <p class="mb-1">
             <a href="forgot-password.html">I forgot my password</a>
-        </p>
+        </p> --}}
         <p class="mb-0">
             <a href="register.html" class="text-center">Register a new membership</a>
         </p>
@@ -98,7 +87,7 @@
 
 {{--@extends('layouts.app')
 
- @section('content')
+@section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
